@@ -1,4 +1,3 @@
-
 import java.util.HashMap;
 import java.util.Scanner;
 
@@ -10,8 +9,8 @@ class Translator {
     }
 
     public String translate(String phrase) {
-        StringBuilder result = new StringBuilder();
         String[] words = phrase.toLowerCase().split("\\s+");
+        StringBuilder result = new StringBuilder();
 
         for (String word : words) {
             String translation = dictionary.get(word);
@@ -36,13 +35,16 @@ public class Main {
 
         translator.addWord("hello", "привіт");
         translator.addWord("world", "світ");
-        translator.addWord("peace", "мир");
-        translator.addWord("friend", "друг");
-        translator.addWord("computer", "комп'ютер");
-        translator.addWord("book", "книга");
-        translator.addWord("apple", "яблуко");
         translator.addWord("i", "я");
+        translator.addWord("love", "люблю");
         translator.addWord("programming", "програмування");
+        translator.addWord("my", "мій");
+        translator.addWord("friend", "друг");
+        translator.addWord("good", "добрий");
+        translator.addWord("morning", "ранок");
+        translator.addWord("how", "як");
+        translator.addWord("are", "є");
+        translator.addWord("you", "ти");
 
         while (true) {
             System.out.println("\nАнгло-український перекладач");
@@ -67,7 +69,7 @@ public class Main {
                 System.out.print("Введіть фразу англійською: ");
                 String phrase = scanner.nextLine();
 
-                System.out.println("Переклад: " + translator.translate(phrase));
+                System.out.println("Переклад фрази: " + translator.translate(phrase));
 
             } else if (choice.equals("0")) {
                 System.out.println("Програму завершено.");
