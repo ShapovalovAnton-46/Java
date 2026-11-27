@@ -1,0 +1,56 @@
+2026-11-27 11:59:03 INFO  [main] app - Application started
+2026-11-27 11:59:41 INFO  [main] app - Reflection task started
+2026-11-27 12:00:17 ERROR [main] app - Reflection task failed java.lang.reflect.InaccessibleObjectException: Unable to make field private final byte[] java.lang.String.value accessible: module java.base does not "opens java.lang" to unnamed module @76a3e297
+	at java.base/java.lang.reflect.AccessibleObject.throwInaccessibleObjectException(AccessibleObject.java:343)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:319)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:267)
+	at java.base/java.lang.reflect.Field.checkCanSetAccessible(Field.java:207)
+	at java.base/java.lang.reflect.Field.setAccessible(Field.java:201)
+	at Main.changeStringValue(Main.java:128)
+	at Main.reflectionTask(Main.java:94)
+	at Main.main(Main.java:42)
+
+2026-11-27 12:03:47 INFO  [main] app - Application started
+2026-11-27 12:03:49 INFO  [main] app - Reflection task started
+2026-11-27 12:03:52 ERROR [main] app - Reflection task failed java.lang.reflect.InaccessibleObjectException: Unable to make field private final byte[] java.lang.String.value accessible: module java.base does not "opens java.lang" to unnamed module @76a3e297
+	at java.base/java.lang.reflect.AccessibleObject.throwInaccessibleObjectException(AccessibleObject.java:343)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:319)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:267)
+	at java.base/java.lang.reflect.Field.checkCanSetAccessible(Field.java:207)
+	at java.base/java.lang.reflect.Field.setAccessible(Field.java:201)
+	at Main.changeStringValue(Main.java:128)
+	at Main.reflectionTask(Main.java:94)
+	at Main.main(Main.java:42)
+
+2026-11-27 12:04:34 INFO  [main] app - Application started
+2026-11-27 12:04:36 INFO  [main] app - Reflection task started
+2026-11-27 12:04:38 ERROR [main] app - Reflection task failed java.lang.reflect.InaccessibleObjectException: Unable to make field private final byte[] java.lang.String.value accessible: module java.base does not "opens java.lang" to unnamed module @76a3e297
+	at java.base/java.lang.reflect.AccessibleObject.throwInaccessibleObjectException(AccessibleObject.java:343)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:319)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:267)
+	at java.base/java.lang.reflect.Field.checkCanSetAccessible(Field.java:207)
+	at java.base/java.lang.reflect.Field.setAccessible(Field.java:201)
+	at Main.changeStringValue(Main.java:128)
+	at Main.reflectionTask(Main.java:94)
+	at Main.main(Main.java:42)
+
+2026-11-27 12:04:40 INFO  [main] app - Reflection task started
+2026-11-27 12:04:42 ERROR [main] app - Reflection task failed java.lang.reflect.InaccessibleObjectException: Unable to make field private final byte[] java.lang.String.value accessible: module java.base does not "opens java.lang" to unnamed module @76a3e297
+	at java.base/java.lang.reflect.AccessibleObject.throwInaccessibleObjectException(AccessibleObject.java:343)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:319)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:267)
+	at java.base/java.lang.reflect.Field.checkCanSetAccessible(Field.java:207)
+	at java.base/java.lang.reflect.Field.setAccessible(Field.java:201)
+	at Main.changeStringValue(Main.java:128)
+	at Main.reflectionTask(Main.java:94)
+	at Main.main(Main.java:42)
+
+2026-11-27 12:06:33 INFO  [main] app - Application started
+2026-11-27 12:06:35 INFO  [main] app - Reflection task started
+2026-11-27 12:06:51 INFO  [main] app - Reflection task completed
+2026-11-27 12:08:34 INFO  [main] app - Application started
+2026-11-27 12:08:37 INFO  [main] app - Reflection task started
+2026-11-27 12:09:02 INFO  [main] app - Reflection task completed
+2026-11-27 12:09:35 INFO  [main] app - Application started
+2026-11-27 12:09:37 INFO  [main] app - Reflection task started
+2026-11-27 12:09:54 INFO  [main] app - Reflection task completed
